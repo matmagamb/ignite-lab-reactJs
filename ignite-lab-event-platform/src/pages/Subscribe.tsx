@@ -28,7 +28,7 @@ export function Subscribe() {
 
     return (
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-            <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
+            <div className="w-full max-w-[1100px] flex items-center justify-between mt-10 mx-auto">
                 <div className="max-w-[640px]">
                     <Logo />
                     <h1 className="mt-8 text-[2.5rem] leading-tight">
@@ -70,7 +70,7 @@ export function Subscribe() {
             </div>
 
 
-            <img src="/src/assets/codeImg.png" className="mt-10 overflow-hidden" alt="" />
+            <img src="/src/assets/codeImg.png" className="overflow-hidden bg-codeImage" alt="" />
 
         </div>
     )

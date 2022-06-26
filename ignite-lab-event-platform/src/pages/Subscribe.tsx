@@ -1,6 +1,8 @@
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../components/Logo";
+import codeimg from '../assets/codeImg.png';
+
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
 
@@ -70,7 +72,7 @@ export function Subscribe() {
             </div>
 
 
-            <img src="/src/assets/codeImg.png" className="overflow-hidden bg-codeImage" alt="" />
+            <img src={codeimg} className="overflow-hidden bg-codeImage" alt="" />
 
         </div>
     )
